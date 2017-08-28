@@ -1,0 +1,22 @@
+<scheme name="20160606" version="142" parent_scheme="Darcula">
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="Arial Black" />
+  <option name="EDITOR_FONT_NAME" value="Arial Black" />
+  <attributes>
+    <option name="DEPRECATED_ATTRIBUTES">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="c3c3c3" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+        <option name="BACKGROUND" value="2b2b2b" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,12 @@
+<templateSet group="HBaseShell">
+  <template name="BtB" value="Bytes.toBytes(" description="Bytes.toBytes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="BtS" value="Bytes.toString(" description="Bytes.toString" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

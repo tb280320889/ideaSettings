@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a2d91f3d-afc9-4ff5-a601-f3bca3d25208" name="zerone00" url="http://115.29.241.33">
+        <fileTransfer host="115.29.241.33" port="22" rootFolder="/alidata1/home/tangbin" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
