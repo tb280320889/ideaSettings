@@ -83,7 +83,7 @@
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="Gsonformat">
-    <keyboard-shortcut first-keystroke="alt p" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="alt w" />
@@ -119,6 +119,7 @@
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="alt d" />
