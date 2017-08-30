@@ -1,0 +1,26 @@
+<templateSet group="JavaSherlock">
+  <template name="ss" value="$var$ final String " description="String" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="private" defaultValue="private" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="gmap" value="@GetMapping(&quot;$NAME$&quot;)&#10;public void $NAME$($END$){&#10;  &#10;}&#10;" description="GetMapping" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rp" value="@RequestParam(&quot;$NAME$&quot;) String $NAME$$END$" description="RequestParam" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="aa" value="@Autowired&#10;private $END$" description="autowired" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
