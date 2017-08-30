@@ -18,20 +18,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="aa" value="@Autowired&#10;private $NAME$ $NAME2$;&#10;$END$" description="autowired" toReformat="false" toShortenFQNames="true">
+  <template name="aa" value="@Autowired&#10;private final $NAME$ $NAME2$;&#10;$END$" description="autowired" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME2" expression="decapitalize(NAME)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="cons" value="$NAME$$END$ $NAME2$" description="CONSTANT NAME" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="NAME2" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="GROOVY" value="true" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="KOTLIN" value="true" />
     </context>
   </template>
 </templateSet>
