@@ -1,6 +1,5 @@
 <templateSet group="JavaSherlock">
-  <template name="ss" value="$var$ final String " description="String" toReformat="false" toShortenFQNames="true">
-    <variable name="var" expression="private" defaultValue="private" alwaysStopAt="true" />
+  <template name="ss" value="String " description="String" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
@@ -21,6 +20,11 @@
   <template name="aa" value="@Autowired&#10;private $NAME$ $NAME2$;&#10;$END$" description="autowired" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME2" expression="decapitalize(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="it" value="Integer " description="Integer" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
