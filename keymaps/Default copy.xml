@@ -13,9 +13,6 @@
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
-  <action id="ByteCodeDecompiler">
-    <keyboard-shortcut first-keystroke="alt k" />
-  </action>
   <action id="ChangesView.Commit">
     <mouse-shortcut keystroke="button2" />
   </action>
@@ -98,8 +95,16 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="Kotlin.NewFile">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="Maven.CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="NewElementSamePlace">
+    <keyboard-shortcut first-keystroke="alt n" />
+    <mouse-shortcut keystroke="alt button3" />
+    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
