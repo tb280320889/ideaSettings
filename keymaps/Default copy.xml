@@ -10,9 +10,6 @@
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
-  <action id="ChangesView.Commit">
-    <mouse-shortcut keystroke="button2" />
-  </action>
   <action id="ClassNameCompletion">
     <keyboard-shortcut first-keystroke="ctrl alt space" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
@@ -98,7 +95,6 @@
   <action id="NewElementSamePlace">
     <keyboard-shortcut first-keystroke="alt n" />
     <mouse-shortcut keystroke="alt button3" />
-    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
@@ -117,6 +113,9 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="RevealIn">
+    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="Runner.CloseAllUnpinnedViews">
     <keyboard-shortcut first-keystroke="alt semicolon" />
