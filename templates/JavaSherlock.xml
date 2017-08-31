@@ -43,4 +43,11 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
+  <template name="ast" value="Assert.assertTrue(&quot;$END$&quot;,);" description="Assert.assertTrue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
