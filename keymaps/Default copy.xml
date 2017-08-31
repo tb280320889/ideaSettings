@@ -1,7 +1,4 @@
 <keymap version="1" name="Default copy" parent="$default">
-  <action id="$SearchWeb">
-    <keyboard-shortcut first-keystroke="alt l" />
-  </action>
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateQueryResultToolWindow">
@@ -44,9 +41,6 @@
   <action id="Console.TableResult.ColumnVisibility" />
   <action id="DecompileKotlinToJava">
     <keyboard-shortcut first-keystroke="alt i" />
-  </action>
-  <action id="Editor SearchWeb">
-    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="EditorContextInfo" />
   <action id="EditorJoinLines">
@@ -110,6 +104,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
   <action id="QuickChangeScheme" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
@@ -120,6 +117,9 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Runner.CloseAllUnpinnedViews">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="alt 5" />
