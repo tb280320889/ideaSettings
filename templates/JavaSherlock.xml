@@ -35,4 +35,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="attentionJVM" value="//FIXME need attention!" description="#FIXME need attention!" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>

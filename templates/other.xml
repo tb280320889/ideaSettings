@@ -1,12 +1,4 @@
 <templateSet group="other">
-  <template name="attentionJ" value="//FIXME need attention!" description="#FIXME need attention!" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="GROOVY" value="true" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="KOTLIN" value="true" />
-      <option name="SCALA" value="true" />
-    </context>
-  </template>
   <template name="attention#" value="&lt;!--FIXME need attention!--&gt;" description="#FIXME need attention!" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
