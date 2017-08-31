@@ -29,7 +29,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="pmap" value="@PostMapping(&quot;$NAME$&quot;)&#10;public void $NAME$($END$){&#10;  &#10;}&#10;" description="PostMapping" toReformat="false" toShortenFQNames="true">
+  <template name="pmap" value="@PostMapping(&quot;$NAME$&quot;)&#10;public void $NAME$(@RequestBody String body$END$){&#10;  &#10;}&#10;" description="PostMapping" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
