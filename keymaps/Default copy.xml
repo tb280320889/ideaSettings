@@ -86,11 +86,11 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
-  <action id="Kotlin.NewFile">
-    <keyboard-shortcut first-keystroke="alt k" />
-  </action>
   <action id="Maven.CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="NewElementSamePlace">
     <keyboard-shortcut first-keystroke="alt n" />
