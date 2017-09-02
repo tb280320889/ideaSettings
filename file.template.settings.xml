@@ -2,7 +2,6 @@
   <component name="ExportableFileTemplateSettings">
     <includes_templates>
       <template name="File Header.java" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="KT File Header.kt" reformat="true" live-template-enabled="true" />
     </includes_templates>
   </component>
 </application>
