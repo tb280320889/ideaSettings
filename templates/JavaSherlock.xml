@@ -5,8 +5,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="gmap" value="@GetMapping(&quot;$NAME$&quot;)&#10;public void $NAME$($END$){&#10;  &#10;}&#10;" description="GetMapping" toReformat="false" toShortenFQNames="true">
+  <template name="gmap" value="private static final String $UPCASENAME$ = &quot;$NAME$&quot;;&#10;&#10;@GetMapping($UPCASENAME$)&#10;public void $NAME$($END$){&#10;  &#10;}&#10;" description="GetMapping" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="UPCASENAME" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
@@ -29,8 +30,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="pmap" value="@PostMapping(&quot;$NAME$&quot;)&#10;public void $NAME$(@RequestBody String body$END$){&#10;  &#10;}&#10;" description="PostMapping" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="pmap" value="private static final String $UPCASENAME$ = &quot;$NAME$&quot;;&#10;&#10;@PostMapping($UPCASENAME$)&#10;public void $NAME$(@RequestBody String body$END$){&#10;  &#10;}&#10;" description="PostMapping" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="UPCASENAME" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
