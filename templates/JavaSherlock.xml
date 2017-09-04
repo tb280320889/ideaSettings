@@ -62,4 +62,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="pmapform" value="private static final String $UPCASENAME$ = &quot;$NAME$&quot;;&#10;&#10;@PostMapping($UPCASENAME$)&#10;public void $NAME$(@Valid $END$, BindingResult bindingResult, Map&lt;String,Object&gt; vMap){&#10;  if (bindingResult.hasErrors()) {&#10;    vMap.put(&quot;msg&quot;, bindingResult.getFieldError().getDefaultMessage());&#10;  }&#10;}&#10;" description="pmap Form" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="UPCASENAME" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
