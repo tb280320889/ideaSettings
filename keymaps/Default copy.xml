@@ -35,9 +35,14 @@
     <keyboard-shortcut first-keystroke="ctrl period" />
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Console.Jpa.GenerateSql" />
   <action id="Console.TableResult.ColumnVisibility" />
   <action id="DecompileKotlinToJava">
     <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="EditorContextInfo" />
   <action id="EditorJoinLines">
