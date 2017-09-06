@@ -37,12 +37,17 @@
   </action>
   <action id="Console.Jpa.GenerateSql" />
   <action id="Console.TableResult.ColumnVisibility" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="DatabaseView.PropertiesAction" />
   <action id="DecompileKotlinToJava">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
-    <keyboard-shortcut first-keystroke="alt t" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="EditorContextInfo" />
   <action id="EditorJoinLines">
@@ -130,7 +135,6 @@
   </action>
   <action id="SelectNextOccurrence" />
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="SmartTypeCompletion">
