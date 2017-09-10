@@ -158,6 +158,10 @@
           <option name="url" value="https://github.com/sqshq/ELK-docker.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/OptionalDay/spring-cloud-vue-kotlin.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\tangbin\codes" />
