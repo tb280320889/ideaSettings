@@ -1,6 +1,9 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="GenerateSerialVersionUID">
+        <abbreviation name="svuid" />
+      </action>
       <action id="ChangeTypeSignature" />
     </abbreviations>
   </component>

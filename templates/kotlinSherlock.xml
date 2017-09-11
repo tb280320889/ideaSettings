@@ -16,7 +16,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="aa" value="@Autowired constructor(&#10;  val $NAME$ : $NAME2$&#10;)$END$ &#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="aa" value="@Autowired constructor(&#10;  private  val $NAME$ : $NAME2$&#10;)$END$ &#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="decapitalize(NAME2)" defaultValue="" alwaysStopAt="true" />
     <context>
