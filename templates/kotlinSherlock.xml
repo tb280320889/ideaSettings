@@ -1,5 +1,5 @@
 <templateSet group="kotlinSherlock">
-  <template name="rw" value="import org.junit.Assert.*&#10;&#10;@RunWith(SpringRunner::class)&#10;@SpringBootTest" description="@RunWith @SpringBootTest" toReformat="false" toShortenFQNames="true">
+  <template name="rw" value="@RunWith(SpringRunner::class)&#10;@SpringBootTest" description="@RunWith @SpringBootTest" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
