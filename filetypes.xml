@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="" type="Kotlin" />
       <mapping pattern=".jdk8" type="PLAIN_TEXT" />
       <mapping pattern="editTexts" type="PLAIN_TEXT" />
     </extensionMap>
