@@ -11,7 +11,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="`m" value="`$SELECTION$`" toReformat="false" toShortenFQNames="true">
+  <template name="`m" value="`$SELECTION$`" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
