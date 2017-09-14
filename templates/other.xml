@@ -4,4 +4,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="qm" value="&quot;$SELECTION$&quot;" description="surround with double quotation marks" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>

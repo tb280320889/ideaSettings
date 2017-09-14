@@ -36,4 +36,35 @@
       <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="gmap" value="@GetMapping(&quot;$NAME$&quot;)&#10;fun $NAME$($END$){&#10;  &#10;}" description="gmap" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="pmap" value="@PostMapping(&quot;$NAME$&quot;)&#10;fun $NAME$($END$){&#10;  &#10;}" description="pmap" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="rq" value="@RequestParam(&quot;$NAME$&quot;) $NAME$ : String$END$" description="rq" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="pmapform" value="@PostMapping(&quot;$NAME$&quot;)&#10;fun $NAME$(@Valid $END$, bindingResult : BindingResult, viewMap : MutableMap&lt;String,Any&gt;){&#10;  if (bindingResult.hasErrors()) {&#10;    viewMap.put(&quot;msg&quot;, bindingResult.fieldError.defaultMessage);&#10;  }&#10;}&#10;" description="pmapform" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="vmap" value="viewMap : MutableMap&lt;String,Any&gt;" description="Map&lt;String,Object&gt; viewMap" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+    </context>
+  </template>
 </templateSet>

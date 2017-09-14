@@ -52,12 +52,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="qm" value="&quot;$SELECTION$&quot;" description="surround with double quotation marks" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="vMap" value="Map&lt;String,Object&gt; vMap" description="Map&lt;String,Object&gt; map" toReformat="false" toShortenFQNames="true">
+  <template name="vMap" value="Map&lt;String,Object&gt; viewMap" description="Map&lt;String,Object&gt; map" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
