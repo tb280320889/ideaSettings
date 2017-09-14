@@ -28,4 +28,12 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="svuid" value="private val serialVersionUID = -58489$NAME$$TIME$L" description="serialVersionUID" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
