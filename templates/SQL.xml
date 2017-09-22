@@ -1,0 +1,7 @@
+<templateSet group="SQL">
+  <template name="tab" value="create table $NAME$ (&#10;$END$&#10;) ENGINE = innodb comment '$COMMENT$';" description="new table definition" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMMENT" expression="underscoresToSpaces(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

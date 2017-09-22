@@ -1,0 +1,29 @@
+<templateSet group="SQLSherlock">
+  <template name="nn" value="$NAME$ $END$ NOT NULL COMMENT '$NAME2$'," description="not null column" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME2" expression="underscoresToSpaces(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="$NAME$ $END$ COMMENT '$NAME2$'," description="column" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME2" expression="underscoresToSpaces(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="mtime" value="modified_time TIMESTAMP NOT NULL DEFAULT current_timestamp ON UPDATE current_timestamp COMMENT 'last modified time'," description="modified time" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pk" value="$NAME$ INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '$COMMENT$',&#10;$END$&#10;PRIMARY KEY pk_$KEY_NAME$($NAME$)" description="primary key" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMMENT" expression="underscoresToSpaces(NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="KEY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>
