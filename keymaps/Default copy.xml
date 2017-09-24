@@ -35,12 +35,16 @@
     <keyboard-shortcut first-keystroke="ctrl period" />
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Compare.SameVersion">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
   <action id="Console.Jpa.GenerateSql" />
   <action id="Console.TableResult.ColumnVisibility" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="Console.TableResult.SetDefault" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="DecompileKotlinToJava">
     <keyboard-shortcut first-keystroke="alt i" />
