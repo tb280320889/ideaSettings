@@ -4,6 +4,7 @@
       <mapping ext="" type="Kotlin" />
       <mapping pattern=".jdk8" type="PLAIN_TEXT" />
       <mapping pattern="editTexts" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
