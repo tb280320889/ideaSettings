@@ -1,24 +1,4 @@
 <scheme name="TbFont" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="LINE_SPACING" value="0.8" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="DINPro-Bold" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
-  </font>
-  <option name="EDITOR_LIGATURES" value="true" />
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Courier New" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
-  </console-font>
-  <option name="CONSOLE_LINE_SPACING" value="0.7" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
