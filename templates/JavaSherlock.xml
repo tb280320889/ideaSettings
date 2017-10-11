@@ -12,7 +12,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="rp" value="@RequestParam(&quot;$NAME$&quot;) String $NAME$$END$" description="RequestParam" toReformat="false" toShortenFQNames="true">
+  <template name="rp" value="@RequestParam(&quot;$NAME$&quot;) String  $NAME$$END$" description="RequestParam" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
