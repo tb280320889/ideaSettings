@@ -1,10 +1,11 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="ChangeTypeSignature" />
+      <action id="FixDocComment" />
       <action id="GenerateSerialVersionUID">
         <abbreviation name="svuid" />
       </action>
-      <action id="ChangeTypeSignature" />
     </abbreviations>
   </component>
 </application>
