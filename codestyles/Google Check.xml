@@ -67,6 +67,13 @@
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="false" />
     <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="false" />
   </codeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="100" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="RIGHT_MARGIN" value="100" />
     <option name="BLANK_LINES_BEFORE_PACKAGE" value="1" />
